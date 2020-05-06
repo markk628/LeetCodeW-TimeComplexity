@@ -9,6 +9,9 @@ if it is append it to an empty array parity_array
 if it is not append to another empty array odd_array
 once first iteration is done append elements in odd_array to parity_array
 return parity_array
+
+Time Complexity: O(n)
+because we are iterating through whole array
 """
 
 def parity(x):
